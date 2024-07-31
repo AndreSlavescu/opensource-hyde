@@ -11,6 +11,11 @@ Below are the steps to build project environment:
    chmod +x create_env.sh
    ```
 
+   To successfully build nmslib without failure on ARM mac, run the following:
+   ```bash
+   CFLAGS="-mavx -DWARN(a)=(a)" pip install 'rectools[nmslib]'
+   ```
+
 3. Run the script to create and activate the environment:
    ```bash
    ./create_env.sh

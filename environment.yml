@@ -13,7 +13,6 @@ dependencies:
   - pytorch
   - torchvision
   - torchaudio
-  - cudatoolkit=11.8
   - pip
   - pip:
     - transformers
@@ -26,3 +25,4 @@ dependencies:
     - pyserini
     - openai
     - cohere
+    - ir-datasets
